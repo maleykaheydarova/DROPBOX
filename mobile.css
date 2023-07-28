@@ -1,0 +1,164 @@
+@media(max-width:373px) {
+    /* navigation */
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation .info .sign {
+        display: none;
+    }
+
+    /* page1 */
+
+    .information h1 {
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 0.3rem;
+        width: 100%;
+    }
+
+    .information p {
+        margin: 0 1rem;
+    }
+
+    .information button {
+        padding: 1.3rem;
+    }
+
+    .information img {
+        width: 85%;
+    }
+
+    .information h2 {
+        font-size: 1.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cards1 .boxpart1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* page2 */
+    .container2 {
+        height: 163rem;
+    }
+
+    .container2 .text h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 4rem 2rem 0;
+    }
+
+    .container2 .cards2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* page3 */
+    .articlename h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .articlecontent {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .articlecontent .content .divphoto img {
+        width: 100%;
+    }
+
+    .articlecontent .content h3 {
+        font-size: 2rem;
+    }
+
+    .articlecontent .content p {
+        font-size: 1.2rem;
+    }
+
+    .articlecontent .content .btn3 {
+        width: auto;
+        margin: 2rem;
+        height: 3rem;
+    }
+
+    .articlecontent .content .btn4 {
+        width: auto;
+        margin: 2rem;
+        height: 3rem;
+    }
+
+    .articlecontent .content .btn4 button {
+        padding: 1.7rem;
+    }
+
+    .cards4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards4 .part1{
+        display: flex;
+        flex-direction: column;
+    }
+    /* page4 */
+    .container4 .photoandarticle {
+        display: flex;
+    flex-direction: column-reverse;
+    
+    }
+    .container4 .text h2 {
+        font-size: 1.8rem;
+        text-align: center;}
+        .container4 .text p {
+            text-align: center;
+        }
+    .container4 .photoandarticle .photo img{
+        width: 60%;
+        display: none;
+    }
+    /* page5 */
+
+    .container5 .articlename2 h2{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* page6 */
+    .container6 .articlename4 h2{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .container6 .photoandinfo{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container6 .articlename4 p{
+        margin-bottom: 4rem;
+    }
+    .container6 .photoandinfo .photo1 img {
+        width: 100%;
+    }
+    .container6 .buttonandinfo h2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .container6 .buttonandinfo button {
+        width: 100%;
+        padding: 1.7rem;
+    }
+    .container6 .buttonandinfo{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

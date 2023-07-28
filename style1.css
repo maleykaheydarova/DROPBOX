@@ -1,0 +1,1412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+/* navigation */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.navigation .info {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .info .logo img {
+    width: 2.6rem;
+    height: 2.6rem;
+
+}
+
+.navigation .info .logo {
+    border: none;
+    background-color: white !important;
+}
+
+.navigation .info .logoname {
+    height: auto;
+    width: 8rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    background-color: white !important;
+    border: none
+}
+
+.navigation .info button {
+    height: auto;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+
+}
+
+.navigation .info button:hover {
+    background-color: rgb(238, 233, 233);
+    cursor: pointer;
+    transition: 5ms;
+}
+
+.navigation .info .st1 {
+    width: 9rem;
+}
+
+.navigation .info .nd2 {
+    width: 6rem;
+}
+
+.navigation .info .rd3 {
+    width: 5rem;
+}
+
+.navigation .info .rd4 {
+    width: 5rem;
+}
+
+
+.navigation .info .sign {
+    margin: 0.5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue !important;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+/* page1 */
+.container1 {
+    margin: 0 auto;
+    background-color: rgb(12, 12, 12);
+    width: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60rem;
+}
+
+.information h1 {
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+.information .heading1 {
+    margin-top: 6rem;
+}
+
+.information p {
+    color: white;
+    font-weight: 1.2rem;
+    font-size: 1.1rem;
+
+}
+
+.information button {
+    background-color: rgb(37, 133, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem;
+    border: none;
+    width: 13rem;
+    margin-top: 2rem;
+
+
+}
+
+.information button:hover {
+    background-color: rgb(88, 161, 245);
+    cursor: pointer;
+}
+
+.information button p {
+    color: black;
+    font-weight: 600;
+}
+
+.information img {
+    margin: 3rem 0;
+    width: 46%;
+}
+
+.information h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards1 .boxpart1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards1 .boxpart1 .box {
+
+    padding: 5rem;
+}
+
+.cards1 .boxpart1 .box img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cards1 .boxpart1 .box h4 {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.cards1 .boxpart1 .box p {
+    color: white;
+    font-weight: 500;
+}
+
+/* page2 */
+.container2 {
+    background-color: rgb(245, 247, 248) height: 50rem;
+    width: auto;
+
+}
+
+.container2 .text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2 .text h2 {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.container2 .cards2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.container2 .cards2 .whitecard {
+    padding: 5rem 5rem 0;
+    width: 21rem;
+}
+
+.container2 .cards2 .whitecard img {
+    width: 3.1rem;
+    height: 3.1rem;
+}
+
+.container2 .cards2 .whitecard h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.container2 .cards2 .whitecard p {
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+}
+
+.container2 .cards2 .whitecard .underline {
+    color: black;
+    font-weight: 600;
+}
+
+.container2 .cards2 .whitecard a i {
+    color: black;
+}
+
+/* page3 */
+
+.container3 {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articlename h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin: 4rem 0;
+
+}
+
+.articlecontent {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 50, 50);
+    justify-content: center;
+    height: auto;
+    width: 88%;
+
+}
+
+.articlecontent hr {
+    color: gray;
+    opacity: 0.3;
+}
+
+.articlecontent .content {
+    width: 80%;
+
+}
+
+.articlecontent .content img {
+    width: 100%;
+    height: 42%;
+}
+
+.articlecontent .content h3 {
+    margin: 1rem 0;
+    font-size: 2.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 0 1.5rem 0;
+
+}
+
+.articlecontent .content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1.5rem 0;
+    color: white;
+}
+
+.articlecontent .content .btn3 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 1.4rem 0;
+
+
+}
+
+.articlecontent .content .btn4 {
+    display: flex;
+    justify-content: center;
+
+    margin: 3.6rem 1.4rem 0;
+}
+
+.articlecontent .content .btn4 button {
+    width: 100%;
+    background-color: rgb(37, 133, 243);
+    border: none;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articlecontent .content .btn3 button {
+    background-color: rgb(37, 133, 243);
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articlecontent .content button:hover {
+    background-color: rgb(88, 161, 245);
+    cursor: pointer;
+}
+
+.articlecontent .content button p {
+    color: black;
+    font-weight: 540;
+}
+
+.cards4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards4 .part1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards4 .part1 .blackcard {
+    padding: 2rem 5rem;
+}
+
+.cards4 .part1 .blackcard h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+}
+
+.cards4 .part1 .blackcard h5 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.cards4 .part1 .blackcard p {
+    color: white;
+    font-weight: 300;
+    margin: 1rem 0 2rem;
+}
+
+/* page4 */
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 247, 248);
+
+}
+
+.container4 .text {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container4 .text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+}
+
+.container4 .text p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.container4 .photoandarticle {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 46rem;
+    background-color: rgb(4, 214, 214);
+    justify-content: space-around;
+}
+
+.container4 .photoandarticle .article {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+
+
+}
+
+.container4 .photoandarticle .article .guide {
+    margin: 0 2rem 2rem 2rem;
+
+
+}
+
+.container4 .photoandarticle .article .guide .firstline {
+    margin-bottom: 2rem;
+}
+
+.container4 .photoandarticle .article .guide h4 {
+    margin-bottom: 2rem;
+
+}
+
+.container4 .photoandarticle .article .guide hr {
+    opacity: 0.3;
+}
+
+.container4 .photoandarticle .article .guide h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.container4 .photoandarticle .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 .photoandarticle .photo img {
+    width: 82%;
+}
+
+
+/* page5 */
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 247, 248)
+}
+
+.container5 .articlename2 {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container5 .articlename2 h2 {
+    font-size: 2.2rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+}
+
+.container5 .articlename2 p {
+    margin-top: 2rem;
+}
+
+.container5 .articlename2 p a {
+    color: black;
+}
+
+.container5 .cards5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container5 .cards5 .whitecard1 {
+    padding: 5rem 5rem 0;
+    width: 21rem;
+}
+
+.container5 .cards5 .whitecard1 img {
+    width: 3.1rem;
+    height: 3.1rem;
+}
+
+.container5 .cards5 .whitecard1 h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.container5 .cards5 .whitecard1 p {
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+}
+
+/* page6 */
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(51, 50, 50);
+}
+
+.container6 .articlename4 {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container6 .articlename4 h2 {
+    font-size: 2.2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+}
+
+.container6 .articlename4 p {
+    margin-top: 2rem;
+}
+
+.container6 .articlename4 p a {
+    color: white;
+}
+
+.container6 .photoandinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 29rem;
+    width: 88%;
+    margin-top: 2rem;
+
+}
+
+.container6 .photoandinfo .photo1 {
+    width: 100%;
+}
+
+.container6 .photoandinfo .photo1 img {
+    width: 130%;
+    height: 100%;
+}
+
+.container6 .photoandinfo .info1 .article1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 11, 70);
+
+}
+
+.container6 .photoandinfo .info1 .article1 h3 {
+    font-size: 1.8rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding: 1rem;
+
+}
+
+.container6 .photoandinfo .info1 .article1 p a {
+    color: white;
+    padding: 1rem;
+
+}
+
+.container6 .photoandinfo .info1 .article1 p a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+
+.container6 .buttonandinfo {
+
+    margin: 6rem 0;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .buttonandinfo h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 0.8rem;
+}
+
+.container6 .buttonandinfo button {
+    width: 20rem;
+    border: none;
+    background-color: rgb(37, 133, 243);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container6 .buttonandinfo button:hover {
+    background-color: rgb(88, 161, 245);
+}
+
+.container6 .buttonandinfo button p {
+    font-size: 1.1rem;
+    font-weight: 540;
+
+}
+
+/* page7 */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.footer .footer1 {
+    margin: 2rem 0;
+    padding: 3rem;
+}
+
+.footer .footer1 h4 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footer .footer1 p {
+    margin: 1rem 0;
+
+}
+
+.footer .footer1 p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer1 p a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:1280px) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+
+
+    }
+
+    .navigation .info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation .info .logo img {
+        width: 2.6rem;
+        height: 2.6rem;
+
+    }
+
+    .navigation .info .logo {
+        border: none;
+        background-color: white !important;
+    }
+
+    .navigation .info .logoname {
+        height: auto;
+        width: 8rem;
+        font-size: 1.3rem;
+        font-weight: 800;
+        background-color: white !important;
+        border: none
+    }
+
+    .navigation .info button {
+        height: auto;
+        padding: 0.2rem;
+        font-size: 1rem;
+        border: none;
+        background-color: white;
+
+    }
+
+    .navigation .info button:hover {
+        background-color: rgb(238, 233, 233);
+        cursor: pointer;
+        transition: 5ms;
+    }
+
+    .navigation .info .st1 {
+        display: none;
+    }
+
+    .navigation .info .nd2 {
+        display: none;
+    }
+
+    .navigation .info .rd3 {
+        display: none;
+    }
+
+    .navigation .info .rd4 {
+        width: 5rem;
+    }
+
+
+    .navigation .info .sign {
+        margin: 0.5rem;
+        width: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: blue !important;
+        color: white;
+        font-weight: 600;
+        border: none;
+    }
+
+    /* page1 */
+    .container1 {
+        margin: 0 auto;
+        background-color: rgb(12, 12, 12);
+        width: auto;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 60rem;
+    }
+
+    .information h1 {
+        color: white;
+        font-size: 3rem;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+    }
+
+
+    .information .heading1 {
+        margin-top: 6rem;
+    }
+
+    .information p {
+        color: white;
+        font-weight: 1.2rem;
+        font-size: 1.1rem;
+
+    }
+
+    .information button {
+        background-color: rgb(37, 133, 243);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.7rem;
+        border: none;
+        width: 13rem;
+        margin-top: 2rem;
+
+
+    }
+
+    .information button:hover {
+        background-color: rgb(88, 161, 245);
+        cursor: pointer;
+    }
+
+    .information button p {
+        color: black;
+        font-weight: 600;
+    }
+
+    .information img {
+        margin: 3rem 0;
+        width: 46%;
+    }
+
+    .information h2 {
+        font-size: 2.5rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cards1 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cards1 .boxpart1 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cards1 .boxpart1 .box {
+
+        padding: 5rem;
+    }
+
+    .cards1 .boxpart1 .box img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .cards1 .boxpart1 .box h4 {
+        font-size: 1rem;
+        color: white;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+
+    .cards1 .boxpart1 .box p {
+        color: white;
+        font-weight: 500;
+    }
+
+    /* page2 */
+    .container2 {
+        background-color: rgb(245, 247, 248) height: 50rem;
+        width: auto;
+
+    }
+
+    .container2 .text {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container2 .text h2 {
+        margin-top: 4rem;
+        font-size: 2.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300;
+    }
+
+    .container2 .cards2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+    .container2 .cards2 .whitecard {
+        padding: 5rem 5rem 0;
+        width: 21rem;
+    }
+
+    .container2 .cards2 .whitecard img {
+        width: 3.1rem;
+        height: 3.1rem;
+    }
+
+    .container2 .cards2 .whitecard h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .container2 .cards2 .whitecard p {
+        font-weight: 400;
+        margin-bottom: 1.8rem;
+    }
+
+    .container2 .cards2 .whitecard .underline {
+        color: black;
+        font-weight: 600;
+    }
+
+    .container2 .cards2 .whitecard a i {
+        color: black;
+    }
+
+    /* page3 */
+
+    .container3 {
+        background-color: rgb(12, 12, 12);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articlename h2 {
+        color: white;
+        font-size: 2.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300;
+        margin: 4rem 0;
+
+    }
+
+    .articlecontent {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(51, 50, 50);
+        justify-content: center;
+        height: auto;
+        width: 88%;
+
+    }
+
+    .articlecontent hr {
+        color: gray;
+        opacity: 0.3;
+    }
+
+    .articlecontent .content {
+        width: 100%;
+
+    }
+
+    .articlecontent .content .divphoto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .articlecontent .content h3 {
+        margin: 1rem 0;
+        font-size: 2.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: white;
+        padding: 0 1.5rem 0;
+
+    }
+
+    .articlecontent .content p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0 1.5rem 0;
+        color: white;
+    }
+
+    .articlecontent .content .btn3 {
+        /* display: flex;
+        justify-content: center; */
+        margin-bottom: 2rem;
+
+    }
+
+    .articlecontent .content .btn4 {
+        display: flex;
+        justify-content: center;
+
+       
+    }
+
+    .articlecontent .content .btn4 button {
+        width: 100%;
+        background-color: rgb(37, 133, 243);
+        border: none;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .articlecontent .content .btn3 button {
+        background-color: rgb(37, 133, 243);
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .articlecontent .content button:hover {
+        background-color: rgb(88, 161, 245);
+        cursor: pointer;
+    }
+
+    .articlecontent .content button p {
+        color: black;
+        font-weight: 540;
+    }
+
+    .cards4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards4 .part1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards4 .part1 .blackcard {
+        padding: 2rem 5rem;
+    }
+
+    .cards4 .part1 .blackcard h3 {
+        font-size: 3rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 540;
+    }
+
+    .cards4 .part1 .blackcard h5 {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        color: white;
+    }
+
+    .cards4 .part1 .blackcard p {
+        color: white;
+        font-weight: 300;
+        margin: 1rem 0 2rem;
+    }
+
+    /* page4 */
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(245, 247, 248);
+
+    }
+
+    .container4 .text {
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container4 .text h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 540;
+    }
+
+    .container4 .text p {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .container4 .photoandarticle {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 46rem;
+        background-color: rgb(4, 214, 214);
+        justify-content: space-around;
+    }
+
+    .container4 .photoandarticle .article {
+        width: 100%;
+        background-color: white;
+        padding: 1rem;
+
+
+    }
+
+    .container4 .photoandarticle .article .guide {
+        margin: 0 2rem 2rem 2rem;
+
+
+    }
+
+    .container4 .photoandarticle .article .guide .firstline {
+        margin-bottom: 2rem;
+    }
+
+    .container4 .photoandarticle .article .guide h4 {
+        margin-bottom: 2rem;
+
+    }
+
+    .container4 .photoandarticle .article .guide hr {
+        opacity: 0.3;
+    }
+
+    .container4 .photoandarticle .article .guide h4 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .container4 .photoandarticle .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4 .photoandarticle .photo img {
+        width: 82%;
+    }
+
+
+    /* page5 */
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(245, 247, 248)
+    }
+
+    .container5 .articlename2 {
+        margin-top: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container5 .articlename2 h2 {
+        font-size: 2.2rem;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 540;
+    }
+
+    .container5 .articlename2 p {
+        margin-top: 2rem;
+    }
+
+    .container5 .articlename2 p a {
+        color: black;
+    }
+
+    .container5 .cards5 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .container5 .cards5 .whitecard1 {
+        padding: 5rem 5rem 0;
+        width: 21rem;
+    }
+
+    .container5 .cards5 .whitecard1 img {
+        width: 3.1rem;
+        height: 3.1rem;
+    }
+
+    .container5 .cards5 .whitecard1 h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .container5 .cards5 .whitecard1 p {
+        font-weight: 400;
+        margin-bottom: 1.8rem;
+    }
+
+    /* page6 */
+
+    .container6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(51, 50, 50);
+    }
+
+    .container6 .articlename4 {
+        margin-top: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container6 .articlename4 h2 {
+        font-size: 2.2rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 540;
+    }
+
+    .container6 .articlename4 p {
+        margin-top: 2rem;
+    }
+
+    .container6 .articlename4 p a {
+        color: white;
+    }
+
+    .container6 .photoandinfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 29rem;
+        width: 88%;
+        margin-top: 2rem;
+
+    }
+
+    .container6 .photoandinfo .photo1 {
+        width: 100%;
+    }
+
+    .container6 .photoandinfo .photo1 img {
+        width: 130%;
+        height: 100%;
+    }
+
+    .container6 .photoandinfo .info1 .article1 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(189, 11, 70);
+
+    }
+
+    .container6 .photoandinfo .info1 .article1 h3 {
+        font-size: 1.8rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        padding: 1rem;
+
+    }
+
+    .container6 .photoandinfo .info1 .article1 p a {
+        color: white;
+        padding: 1rem;
+
+    }
+
+    .container6 .photoandinfo .info1 .article1 p a:hover {
+        text-decoration: underline;
+        opacity: 0.7;
+    }
+
+
+
+    .container6 .buttonandinfo {
+
+        margin: 6rem 0;
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container6 .buttonandinfo h2 {
+        font-size: 2.5rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        padding: 0.5rem;
+    }
+
+    .container6 .buttonandinfo button {
+        width: 20rem;
+        border: none;
+        background-color: rgb(37, 133, 243);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .container6 .buttonandinfo button:hover {
+        background-color: rgb(88, 161, 245);
+        cursor: pointer;
+    }
+
+    .container6 .buttonandinfo button p {
+        font-size: 1.1rem;
+        font-weight: 540;
+
+    }
+
+    /* page7 */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+
+    .footer .footer1 {
+        margin: 2rem 0;
+        padding: 3rem;
+    }
+
+    .footer .footer1 h4 {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .footer .footer1 p {
+        margin: 1rem 0;
+
+    }
+
+    .footer .footer1 p a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer .footer1 p a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media(max-width:1280px) {
+    .articlecontent .content .btn4 {
+        display: flex;
+        justify-content: center;
+
+        margin: 5rem 1.4rem 0;
+    }
+
+    .articlecontent .content h3 {
+        margin: 1rem 0;
+        font-size: 2.2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: white;
+        padding: 0 1.5rem 0;
+
+    }
+
+    .articlecontent .content p {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0 1.1rem 0;
+        color: white;
+    }
+
+    .articlecontent .content .btn3 {
+        display: flex;
+        justify-content: center;
+        margin: 5rem 1.4rem 0;
+
+
+    }
+
+}
